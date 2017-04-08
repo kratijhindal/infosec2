@@ -1,0 +1,24 @@
+<?php
+		include("dbconfig.php");
+		$sql = "select * from contact";
+		$res = mysqli_query($conn,$sql);
+		while($row=mysqli_fetch_array[$res]){
+			echo "<tr>";
+			//echo "<td>".$row['state']."</td>";
+				echo "<td>".$row['name']."</td>"; 
+				echo "<td>".$row['email']."</td>"; 
+				echo "<td>".$row['password']."</td>"; 
+				echo "<td>".$row['mobile']."</td>"; 
+				echo "<td>".$row['city']."</td>"; 
+				echo "<td>".$row['address']."</td>"; 
+				echo "<td>".$row['gender']."</td>"; 
+			
+			echo "</tr>";
+		}
+	
+	
+	
+	
+	
+	?>
+	

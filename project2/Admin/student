@@ -1,0 +1,33 @@
+$name = $_POST['name'];
+	//echo $name;
+	$email = $_POST['email'];
+	$mobile = $_POST['mobile'];
+	$qual = $POST['qual'];
+	$address = $POST['address'];
+	$hobby = implode(',', $_POST['hobby']);
+	$gender = $_POST['gender'];
+	$photo =$_FILE['file1']['name'];
+	//echo $photo;
+	$payment = $_POST['payment'];
+	
+	$sql = "insert into data(name,email,mobile,qualification,address,hobbby,gender,photo,payment)
+	values('$name','$email','$mobile','$qual','$address','$hobby','$gender','$photo','$payment')";
+	
+	mysqli_query($conn,$sql);
+	echo "data inserted";
+	
+	
+	
+	create table student_deta
+(
+id int(10)  primary key auto_increment,
+	    name varchar(100),
+		email varchar(100),
+		mobile bigint(13));	
+        qualification text(10),
+        address text(1000),
+        hobby text(10),
+        gender text(10),
+        photo text(10),
+        payment text(10)
+);

@@ -1,0 +1,25 @@
+body{
+	margin:10px;
+}
+
+.navbar{
+	background:lightblue;
+	border :none;
+	
+}
+.social-icon{
+	color:white;
+	margin-top:auto;
+	padding:20px;
+	
+}
+.nav ul  {
+list-style:none;
+background:#50aaa8;
+	
+}
+.side-bar  {
+
+background:#0fad69;
+	
+}

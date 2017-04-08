@@ -1,0 +1,22 @@
+create table signup
+(id int(10) primary key auto_increment,
+name text(220),
+address varchar(1000),
+email varchar(220),
+gender text(10),
+password varchar(200),
+qualification text(10),
+confirm_password varchar(200),
+languages text(10),
+mobile bigint(100),
+photo text(10),
+city text(10)
+);
+
+create table contact
+(id  int(10) primary key auto_increment,
+ name text(100),
+ email varchar(210),
+ mobile bigint(200),
+ message text(1000)
+);

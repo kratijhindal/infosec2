@@ -1,0 +1,10 @@
+<producers>
+	<producer>
+		<name>abc</name>
+		<age>18</age>
+	</producer>
+	<producer>
+		<name>xyz</name>
+		<age>21</age>
+	</producer>
+</producers>

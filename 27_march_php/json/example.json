@@ -1,0 +1,29 @@
+{
+	"emp":[
+				{ "id" : "01",
+				  "name" : "aaa",
+				  "email" : "a@gmail.com",
+				  "salary" : "20000"
+				
+				
+				},
+				{ "id" : "02",
+				  "name": "bbb",
+				  "email" : "b@gmail.com",
+				  "salary" : "100000"
+				},
+				{
+				  "id":"03",
+				  "name":"ccc",
+				  "email":"c@gmail.com",
+				  "salary":"300000"
+				},
+				{
+				  "id":"04",
+				  "name":"cdc",
+				  "email":"d@gmail.com",
+				  "salary":"300000"
+				}
+				
+              ]
+}

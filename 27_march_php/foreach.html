@@ -1,0 +1,18 @@
+<?php
+	
+$food = array('healthy'=>array('pasta','dal','salad'),'unhealthy'=>array('pizza','chips','icecream'));
+print_r ($food). '<br>';	
+foreach($food as $element=>$inner_array){
+	echo $element . '<br>';
+}
+foreach($inner_array as $item){
+	echo $item . '<br>';
+}
+
+$car = array('volvo','indigo','maruti');
+foreach($car as $element){
+	echo $element . '<br>';
+	
+	include 'server.php';//if included file doesnt exits then...reqire kills rest of the page.include runs rest the pge
+}//45
+?>
