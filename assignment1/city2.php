@@ -6,7 +6,7 @@
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--for this site no downloading is required-->
 	</head>
 	<body>
-		<div class="container"  style="background:lightblue;">
+		<div class="container-fluid"  style="background:lightblue;">
 		
 			<nav class="navbar navbar-default ">
 				
@@ -100,40 +100,25 @@
 							  <hr>
 								<form style="background:#e3e5e8;">
 								<br><br>
-								   <div class="row">
+							    <div class="row">
 								
 									<div class="col-sm-1"></div>
-									  <div class="col-sm-9">
-										<div class="row">
-											<div class="col-sm-12">
-												<label>Select State</label>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-sm-12">
-												<select name="state" id="state" class="form-control">
+									  <div class="col-sm-9"><!--form coding-->
+										<div class="form-group">
+											<label for="state">Select State:</label>
+												<select name="state" id="state" class="form-control" name="state">
 													<option name="choose state">choose name</option>
 													<option name="Maharastra">Mararastra</option>
 													<option name="Karnatake">karnatake</option>
 													<option name="up">up</option>
 									            </select>
-											</div>
+										</div>
+										
+										<div class="form-group">
+											<label for="city">Enter City Name:</label>
+											<input type="text" class="form-control" id="city" name="city">
 										</div>
 										<div class="row">
-											<div class="col-sm-12">
-												<label>Enter City Name</label>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-sm-12">
-												<input type="text" class="form-control"><br>
-											</div>
-										</div>
-
-											
-											
-											
-											<div class="row">
 											<div class="col-sm-12">
 												<div class="col-sm-2">
 													<input type="submit" value="send" class="btn btn-primary">
@@ -143,8 +128,8 @@
 												</div>
 												<div class="col-sm-8"></div>
 											</div>
-											</div>
-								        </div>
+											</div><br>
+								      </div><!--forn coding ends-->
 									<div class="col-sm-2"></div>
 								</div>
 								</form>

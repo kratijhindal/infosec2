@@ -6,7 +6,7 @@
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--for this site no downloading is required-->
 	</head>
 	<body>
-		<div class="container"  style="background:lightblue;">
+		<div class="container-fluid"  style="background:lightblue;">
 		
 			<nav class="navbar navbar-default ">
 				
@@ -86,72 +86,92 @@
 					
 					
 					<div class="col-sm-9" style="background:#bbc0c1;">
-						<div class="row" >
+						<div class="row" ><!--row1-->
 							<div class="col-sm-6">
-							<h2> State List</h2>
+							<h2> New Clients</h2>
 							</div>
 							<div class="col-sm-6 text-right">
 							
 							</div>
                         </div>	<!--row ends-->
 
-						<div class="row">
+						<div class="row"><!--row2-->
+							
 							<div class="col-sm-12">
 							  <hr>
-								<form style="background:#e3e5e8;">
-								<br><br>
-								   <div class="row">
-								
-									<div class="col-sm-1"></div>
-									  <div class="col-sm-9">
-										<div class="row">
-											<div class="col-sm-12">
-												<label>Select State</label>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-sm-12">
-												<select name="state" id="state" class="form-control">
-													<option name="choose state">choose name</option>
-													<option name="Maharastra">Mararastra</option>
-													<option name="Karnatake">karnatake</option>
-													<option name="up">up</option>
-									            </select>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-sm-12">
-												<label>Enter City Name</label>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-sm-12">
-												<input type="text" class="form-control"><br>
-											</div>
-										</div>
-
-											
-											
-											
-											<div class="row">
-											<div class="col-sm-12">
-												<div class="col-sm-2">
-													<input type="submit" value="send" class="btn btn-primary">
-												</div>
-												<div class="col-sm-2">
-													<input type="reset" value="Reset" class="btn btn-info">
-												</div>
-												<div class="col-sm-8"></div>
-											</div>
-											</div>
-								        </div>
+							 <form method="post" action="" role="form" class="form-horizontal" style="background:#e3e5e8;">
+								<div class="row"><!--row1-->
+								   <div class="col-sm-1"></div>
+									<div class="col-sm-4"><!--col6-->
+									
+										<div class="form-group">
+											<label for="name" class="control-label">Bussiness Name</label>
+											<input type="text" class="form-control" name="name" id="name">
+										</div><!--row1-->
+										
+										<div class="form-group">
+											<label for="email" class="control-label">Email Id</label>
+											<input type="text" class="form-control" name="email" id="email">
+										</div><!--row2-->
+										
+										<div class="form-group">
+											<label for="mobile" class="control-label">Mobile No.</label>
+											<input type="number" class="form-control" name="name" id="mobile">
+										</div><!--row3-->
+										
+										<div class="form-group">
+											<label for="id" class="control-label">Select city</label>
+											<select class="form-control" name="city" id="city">
+												<option value="choose city">choose city</option>
+												<option value="banglore">banglore</option>
+												<option value="mumbai">mumbai</option>
+												<option value="delhi">delhi</option>
+											</select>
+										</div><!--row4-->
+										
+									</div><!--col5-->
+									
 									<div class="col-sm-2"></div>
-								</div>
-								</form>
-								<br><br>
-								<br>
-								<br>
-							</div>
+									
+									<div class="col-sm-4"><!--col6-->
+									     <div class="form-group">
+											<label for="pass" class="control-label">Password</label>
+											<input type="text" class="form-control" name="pass" id="pass">
+										</div><!--row1-->
+										
+										<div class="form-group">
+											<label for="rpass" class="control-label">Re Enter Password</label>
+											<input type="text" class="form-control" name="rpass" id="rpass">
+										</div><!--row2-->
+										
+										
+										<div class="form-group">
+											<label for="state" class="control-label">Select state</label>
+											<select class="form-control" name="city" id="state">
+												<option value="choose state">choose state</option>
+												<option value="maharastra">mahrastra</option>
+												<option value="karnatake">karnatake</option>
+												<option value="up">up</option>
+											</select>
+										</div><!--row4-->
+									
+									</div><!--col6-->
+									<div class="col-sm-1"></div>
+								</div><!--row1-->
+								<div class="row">
+									<div class="col-sm-1"></div>
+									<div class="col-sm-1">
+									  <input type="submit" class="btn btn-info" value="save">
+									</div>
+									<div class="col-sm-1">
+										<input type="reset" class="btn btn-primary" value="reset">
+									</div>
+									<div class="col-sm-8">
+									</div>
+								</div><!--row2-->
+							 </form>
+							</div><!--col-12 ends-->
+							
 						</div><!--row eds-->
  	
 

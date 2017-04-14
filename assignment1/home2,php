@@ -52,7 +52,7 @@
 									
 								
 							</div>
-						</div><!--SEARCH ROW-->
+						</div>
 				
 						<div class="row">
 							<div class="col-sm-12" >
@@ -64,23 +64,21 @@
 										 <i class="fa fa-angle-left"></i></a>
 										</li>
 										<li>
-										<a href="#" class="side-bar" ><span class="glyphicon glyphicon-dashboard"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-angle-left"></i></a>
+										<a href="#" class="side-bar" ><span class="glyphicon glyphicon-picture"></span>
+										&nbsp &nbsp Dashboard  &nbsp &nbsp &nbsp <span class="glyphicon glyphicon-chevron-left"></span></a>
+										<li>
+										<a href="#" class="side-bar"><span class="glyphicon glyphicon-wrench"></span>
+										&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span class="glyphicon glyphicon-chevron-left"></span></a>
 										</li>
 										<li>
-										<a href="#" class="side-bar"><span class="glyphicon glyphicon-dashboard"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-angle-left"></i></a>
+										<a href="#" class="side-bar"><span class="glyphicon glyphicon-user"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp 
+										&nbsp &nbsp &nbsp &nbsp <span class="glyphicon glyphicon-chevron-left"></span></a>
 										</li>
 										<li>
-										<a href="#" class="side-bar"><span class="glyphicon glyphicon-dashboard"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-angle-left"></i></a>
+										<a href="#" class="side-bar"><span class="glyphicon glyphicon-duplicate"></span>&nbsp 
+										&nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span class="glyphicon glyphicon-chevron-left"> </span></a>
 										</li>
-										<li>
-										<a href="#" class="side-bar"><span class="glyphicon glyphicon-dashboard"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-angle-left"></i></a>
-										</li>
-										<li>
-										<a href="#" class="side-bar"><span class="glyphicon glyphicon-dashboard"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-angle-left"></i></a>
-										</li>
-										<li>
-										<a href="#" class="side-bar"><span class="glyphicon glyphicon-dashboard"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-angle-left"></i></a>
-										</li>
+										
 										
 									</ul>
 								

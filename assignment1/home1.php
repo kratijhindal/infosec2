@@ -6,22 +6,22 @@
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--for this site no downloading is required-->
 	</head>
 	<body>
-		<div class="container"  style="background:lightblue;">
+		<div class="container-fluid"  style="background:lightblue;">
 		
 			<nav class="navbar navbar-default ">
-				<div class="container">
+				
 					<div class="row">
 						<div class="col-sm-4">
-							<div class="navbar-header text-left"><h2>SIMINTA</h2></div>
+							<div class="navbar-header text-left"><h2 class="head_name">SIMINTA</h2></div>
 						</div><!--col2-->
 						<div class="col-sm-8 text-right">
-							<a href="#" class="social-icon"><i class="fa fa-envelope"></i></a>
-							<a href="#" class="social-icon"><i class="fa fa-file-text"></i></a>
-							<a href="#" class="social-icon"><i class="fa fa-bell-o"></i></a>
-							<a href="#" class="social-icon"><i class="fa fa-user"></i></a>
+							<a href="#" class="social-icon"><span class="glyphicon glyphicon-envelope"></span></a>
+							<a href="#" class="social-icon"><span class="glyphicon glyphicon-th-list"></span></a>
+							<a href="#" class="social-icon"><span class="glyphicon glyphicon-bell"></span></a>
+							<a href="#" class="social-icon"><span class="glyphicon glyphicon-user"></span></a>
 						</div><!--col10-->
 					</div><!--row ends-->
-				</div><!--container ends-->
+				
 			</nav><!--nav ends-->
 			
 			<!--<div class="container">-->
@@ -40,9 +40,17 @@
 						
 						<div class="row">
 							<div class="col-sm-12">
-								<li>
-									<input type="text" class="form-control" placeholder="search">
-								</li>
+								
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="search">
+										<div class="input-group-btn">
+										<button class="btn btn-default">
+											<i class="glyphicon glyphicon-search"></i>
+										</button>
+										</div>
+									</div>
+									
+								
 							</div>
 						</div>
 				
@@ -52,22 +60,26 @@
 									<ul class="nav nav-pills nav-stacked" >
 										
 										<li class="active">
-										<a href="#" style="background:#368785;">  <span class = "glyphicon glyphicon-dashboard"> </span> &nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-										 <i class="fa fa-angle-left"></i></a>
+										 <a href="#" style="background:#368785;">  <span class = "glyphicon glyphicon-dashboard"> </span> &nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+										 </a>
 										</li>
 										<li>
-										<a href="#" class="side-bar" ><span class="glyphicon glyphicon-dashboard"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-angle-left"></i></a>
+										  <a href="#" class="side-bar" ><span class="glyphicon glyphicon-picture"></span>
+										   &nbsp &nbsp Manage Location  &nbsp &nbsp &nbsp <span class="glyphicon glyphicon-chevron-left"></span></a>
+										<li>
+										   <a href="#" class="side-bar"><span class="glyphicon glyphicon-wrench"></span>
+										   &nbsp &nbsp Manage Category  &nbsp &nbsp &nbsp <span class="glyphicon glyphicon-chevron-left"></span></a>
 										</li>
 										<li>
-										<a href="#" class="side-bar"><span class="glyphicon glyphicon-dashboard"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-angle-left"></i></a>
+										<a href="#" class="side-bar"><span class="glyphicon glyphicon-user"></span>&nbsp &nbsp
+										Manage Cliets  &nbsp &nbsp &nbsp 
+										&nbsp &nbsp &nbsp &nbsp <span class="glyphicon glyphicon-chevron-left"></span></a>
 										</li>
 										<li>
-										<a href="#" class="side-bar"><span class="glyphicon glyphicon-dashboard"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-angle-left"></i></a>
+										<a href="#" class="side-bar"><span class="glyphicon glyphicon-duplicate"></span>&nbsp 
+										&nbsp Sample Pages  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span class="glyphicon glyphicon-chevron-left"> </span></a>
 										</li>
-										<li>
-										<a href="#" class="side-bar"><span class="glyphicon glyphicon-dashboard"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-angle-left"></i></a>
-										<li>
-										<a href="#" class="side-bar"><span class="glyphicon glyphicon-dashboard"></span>&nbsp &nbsp Dashboard &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <i class="fa fa-angle-left"></i></a>
+										
 										
 										
 									</ul>
@@ -81,7 +93,7 @@
 					</div><!--col-3 ends-->
 					
 					
-					<div class="col-sm-9" >
+					<div class="col-sm-9" style="background:#bbc0c1;">
 						<div class="row" >
 							<div class="col-sm-6">
 							<h2> State List</h2>

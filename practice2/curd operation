@@ -1,0 +1,16 @@
+PHP MYSQL CURD OPERATION-
+
+dbconfig.php-
+
+form1.php
+save1.php=>cpi
+list.php=>cs
+
+FOR UPDATE->
+update(form2).php->cris ->connect requestid select-REQUEST ID
+save2.php->cpu
+
+for delete->
+delete.php->crid->connect requestid delete-REQUEST ID
+
+cris cpu crid

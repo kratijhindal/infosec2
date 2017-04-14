@@ -7,9 +7,16 @@ body{
 	border :none;
 	
 }
+.head_name{
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+	font-size:35px;
+	
+}
 .social-icon{
 	color:white;
-	margin-top:auto;
+	margin-top:30px;
 	padding:20px;
 	
 }
@@ -21,5 +28,5 @@ background:#50aaa8;
 .side-bar  {
 
 background:#0fad69;
-	
+color:white;	
 }
